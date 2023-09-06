@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #28293e;
+  padding: 16px 135px 66px 135px;
+
+  .novbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+.logo-box{
+  display: flex;
+  align-items: center;
+  .logo{
+    position: relative;
+    img{
+      width: 48px;
+      height: 48px;
+    }
+    svg{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+  h1 {
+    margin-left: 14px;
+    color: var(--Text_Light, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+}
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 36%;
+li{
+  a{
+    text-decoration: none;
+    color: var(--Text_Light, #fff);
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+  }
+}
+
+    }
+
+li a {
+   
+}
+
+    ul li {
+
+      list-style-type: none;
+    }
+
+    button {
+      /* margin-left: 189px; */
+      width: 138px;
+      height: 48px;
+      flex-shrink: 0;
+      background-color: #28293e;
+
+      .btn a{
+        color: #fff;
+        text-align: center;
+        font-family: Epilogue;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .center-text {
+    margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin-bottom: 24px;
+      color: var(--Text_Light, #fff);
+      text-align: center;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Epilogue;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 80px;
+      letter-spacing: -2px;
+    }
+
+    p {
+      width: 570px;
+      height: 66px;
+      flex-shrink: 0;
+      color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+      text-align: center;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* Text */
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; /* 200% */
+    }
+  }
+}
