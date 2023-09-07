@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #28293e;
+  padding: 16px 135px 66px 135px;
+}
+.container .novbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .novbar .logo-box {
+  display: flex;
+  align-items: center;
+}
+.container .novbar .logo-box .logo {
+  position: relative;
+}
+.container .novbar .logo-box .logo img {
+  width: 48px;
+  height: 48px;
+}
+.container .novbar .logo-box .logo svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .novbar .logo-box h1 {
+  margin-left: 14px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container .novbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 36%;
+}
+.container .novbar ul li {
+  list-style-type: none;
+}
+.container .novbar ul li a {
+  text-decoration: none;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .novbar button {
+  width: 138px;
+  height: 48px;
+  background-color: #28293e;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.container .novbar button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.container .center-text {
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .center-text h1 {
+  margin-bottom: 24px;
+  color: var(--Text_Light, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: -2px;
+}
+.container .center-text p {
+  width: 570px;
+  height: 66px;
+  flex-shrink: 0;
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}/*# sourceMappingURL=index_20230906153622.css.map */

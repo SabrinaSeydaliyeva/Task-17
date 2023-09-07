@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #28293e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .left-container {
+  padding: 57px 48px 48px 48px;
+  width: 570px;
+  background-color: white;
+}
+.container .left-container span {
+  display: block;
+  margin-bottom: 23px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container .left-container form input {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+}
+.container .left-container form input::-moz-placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .left-container form input::placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .left-container form textarea {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 128px;
+  padding: 0 16px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+  resize: none;
+}
+.container .left-container form textarea::-moz-placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .left-container form textarea::placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .left-container form button {
+  width: 154px;
+  height: 48px;
+  margin-left: auto;
+  display: block;
+  border-radius: 6px;
+  background: #ef6d58;
+  color: #fff;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.container .right-container {
+  padding: 30px 0px 48px 130px;
+  width: 570px;
+  height: 496px;
+}
+.container .right-container span {
+  margin-bottom: 20px;
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .right-container h1 {
+  margin-bottom: 28px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.container .right-container p {
+  margin-bottom: 45px;
+  width: 470px;
+  height: 67px;
+  flex-shrink: 0;
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}/*# sourceMappingURL=index_20230906155134.css.map */
