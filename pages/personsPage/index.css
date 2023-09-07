@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 100vh;
   background: #28293e;
-  padding: 30px 135px 180px 135px;
+  padding: 70px 135px 180px 135px;
 }
 .container p {
   color: var(--Text_Light_Accent, #ef6d58);
@@ -32,19 +32,35 @@
   line-height: 64px;
   letter-spacing: -1px;
 }
-.container .main .icon-img svg {
+.container .main .icon-img {
   margin-top: 80px;
+  display: flex;
+}
+.container .main .icon-img .circle {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.container .main .icon-img .circle svg {
   width: 48px;
   height: 48px;
 }
-.container .main .icon-img svg .left-arrow {
+.container .main .icon-img .circle img {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .container .persons {
   margin-top: 64px;
   display: flex;
+  justify-content: space-between;
 }
-.container .persons h2 {
+.container .persons .person {
+  width: 23%;
+}
+.container .persons .person h2 {
   color: var(--Text_Light, #fff);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -53,7 +69,7 @@
   font-weight: 700;
   line-height: 32px;
 }
-.container .persons p {
+.container .persons .person p {
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -62,12 +78,15 @@
   font-weight: 400;
   line-height: 32px;
 }
-.container .persons div {
+.container .persons .person div {
   margin-bottom: 25px;
-  width: 270px;
+  width: 100%;
   height: 272px;
   border-radius: 6px;
   border: 1px solid #3a3c56;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .container .persons .person-1 img {
   width: 196px;
@@ -86,10 +105,7 @@
   height: 233px;
 }
 .container .end-img {
-  position: relative;
+  margin-top: 52px;
+  display: flex;
+  justify-content: center;
 }
-.container .end-img img {
-  position: absolute;
-  top: 145px;
-  left: 50%;
-}/*# sourceMappingURL=index.css.map */
