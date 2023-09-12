@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 180px 135px 176px 135px;
+  background-color: #28293e;
+
+  main {
+    display: flex;
+    .img-box {
+      .photo {
+        position: relative;
+        width: 570px;
+        height: 448px;
+      }
+      .photo-person {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 477px;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+    }
+
+    .text-box {
+        position: relative;
+        padding: 44px 0 0 130px;
+
+        img {
+            position: absolute;
+            left: 400px;
+            top: 50px;
+        }
+.text-container{
+
+}
+ 
+    }
+  }
+}

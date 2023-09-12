@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@
 }
 .container main {
   display: flex;
+  align-items: center;
 }
 .container main .img-box .photo {
   position: relative;
@@ -31,14 +33,19 @@
 }
 .container main .text-box {
   position: relative;
-  padding: 44px 0 0 130px;
+  margin-left: 130px;
 }
 .container main .text-box img {
   position: absolute;
-  left: 400px;
-  top: 50px;
+  right: 46px;
+  top: 53px;
+  z-index: 0;
 }
-.container main .text-box h1 {
+.container main .text-box .text-container {
+  position: relative;
+  z-index: 1;
+}
+.container main .text-box .text-container h1 {
   color: var(--Text_Light_Accent, #ef6d58);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -49,7 +56,8 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.container main .text-box p {
+.container main .text-box .text-container p {
+  width: 470px;
   margin-top: 33px;
   color: var(--Text_Light, #fff);
   font-feature-settings: "clig" off, "liga" off;
@@ -59,7 +67,7 @@
   font-weight: 800;
   line-height: 48px;
 }
-.container main .text-box h2 {
+.container main .text-box .text-container h2 {
   margin-top: 44px;
   color: var(--Text_Light, #fff);
   font-feature-settings: "clig" off, "liga" off;
@@ -69,7 +77,7 @@
   font-weight: 400;
   line-height: 32px;
 }
-.container main .text-box h3 {
+.container main .text-box .text-container h3 {
   margin-top: 6px;
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
   font-feature-settings: "clig" off, "liga" off;
@@ -78,4 +86,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}/*# sourceMappingURL=index.css.map */
+}
