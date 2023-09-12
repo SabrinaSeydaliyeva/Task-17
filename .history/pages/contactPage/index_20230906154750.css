@@ -32,6 +32,9 @@
   border: 1px solid #f3d1bf;
   background: #fff;
 }
+.container .left-container form input::-moz-placeholder {
+  color: red;
+}
 .container .left-container form input::placeholder {
   color: red;
 }
@@ -92,4 +95,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-}
+}/*# sourceMappingURL=index_20230906154750.css.map */

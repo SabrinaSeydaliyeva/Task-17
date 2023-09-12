@@ -32,6 +32,15 @@
   border: 1px solid #f3d1bf;
   background: #fff;
 }
+.container .left-container form input::-moz-placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
 .container .left-container form input::placeholder {
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
@@ -50,6 +59,15 @@
   border: 1px solid #f3d1bf;
   background: #fff;
   resize: none;
+}
+.container .left-container form textarea::-moz-placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 .container .left-container form textarea::placeholder {
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
@@ -119,4 +137,4 @@
 }
 .container .right-container ul li {
   list-style-type: none;
-}
+}/*# sourceMappingURL=index_20230906155324.css.map */

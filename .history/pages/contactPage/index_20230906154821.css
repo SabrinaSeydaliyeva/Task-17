@@ -32,6 +32,15 @@
   border: 1px solid #f3d1bf;
   background: #fff;
 }
+.container .left-container form input::-moz-placeholder {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
 .container .left-container form input::placeholder {
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
@@ -98,4 +107,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-}
+}/*# sourceMappingURL=index_20230906154821.css.map */

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fdf0e9;
+  padding: 30px 134px 108px 135px;
+}
+.container .text p {
+  color: var(--Text_Dark_Accent, #ef6d58);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .text h1 {
+  color: var(--Text_Dark, #391400);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.container .main {
+  margin-top: 64px;
+  display: flex;
+}
+.container .main .left-main,
+.container .main .right-main {
+  width: 50%;
+}
+.container .main .left-main .box,
+.container .main .right-main .box {
+  border: 1px solid #f3d1bf;
+  padding: 48px;
+}
+.container .main .left-main .box p,
+.container .main .right-main .box p {
+  margin-top: 36px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .main .left-main .box img,
+.container .main .right-main .box img {
+  width: 152px;
+  height: 24px;
+}
+.container .main .left-main .box .img-info,
+.container .main .right-main .box .img-info {
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+}
+.container .main .left-main .box .img-info img,
+.container .main .right-main .box .img-info img {
+  margin-right: 24px;
+  width: 80px;
+  height: 80px;
+}
+.container .main .left-main .box .img-info .h-text h2,
+.container .main .right-main .box .img-info .h-text h2 {
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container .main .left-main .box .img-info .h-text h3,
+.container .main .right-main .box .img-info .h-text h3 {
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .main .left-main .box:first-child {
+  background-color: white;
+  border-radius: 6px 0px 0px 0px;
+}
+.container .main .left-main .box:nth-child(2) {
+  border-radius: 0px 0px 6px 6px;
+}
+.container .main .right-main .box:first-child {
+  border-radius: 0px 6px 0px 0px;
+}
+.container .main .right-main .box:nth-child(2) {
+  border-radius: 0px 0px 6px 0px;
+}
+.container button {
+  margin-top: 65px;
+  width: 138px;
+  height: 48px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+  color: #391400;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}/*# sourceMappingURL=index_20230907161552.css.map */

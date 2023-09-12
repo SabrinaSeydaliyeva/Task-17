@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fdf0e9;
+  padding: 30px 134px 108px 135px;
+}
+.container .text p {
+  color: var(--Text_Dark_Accent, #ef6d58);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .text h1 {
+  color: var(--Text_Dark, #391400);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.container .main {
+  display: flex;
+}
+.container .main .left-main, .container .main .right-main {
+  width: 50%;
+}
+.container .main p {
+  margin-top: 36px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .main img {
+  width: 152px;
+  height: 24px;
+}
+.container button {
+  margin-top: 65px;
+  margin-left: 50%;
+  width: 138px;
+  height: 48px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+  color: #391400;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}/*# sourceMappingURL=index_20230907160929.css.map */

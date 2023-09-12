@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #28293e;
+  padding: 70px 135px 180px 135px;
+}
+.container p {
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .main {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .text h1 {
+  margin-top: 20px;
+  width: 531px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.container .main .icon-img svg {
+  margin-top: 80px;
+  width: 48px;
+  height: 48px;
+}
+.container .main .icon-img svg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .persons {
+  margin-top: 64px;
+  display: flex;
+}
+.container .persons h2 {
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container .persons p {
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .persons div {
+  margin-bottom: 25px;
+  width: 270px;
+  height: 272px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+}
+.container .persons .person-1 img {
+  width: 196px;
+  height: 247px;
+}
+.container .persons .person-2 img {
+  width: 259px;
+  height: 232px;
+}
+.container .persons .person-3 img {
+  width: 205px;
+  height: 238px;
+}
+.container .persons .person-4 img {
+  width: 230px;
+  height: 233px;
+}
+.container .end-img {
+  position: relative;
+}
+.container .end-img img {
+  position: absolute;
+  top: 145px;
+  left: 50%;
+}/*# sourceMappingURL=index_20230907155433.css.map */
